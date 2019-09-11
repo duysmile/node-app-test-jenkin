@@ -1,5 +1,6 @@
 #!/bin/sh
-ssh -tto StrictHostKeyChecking=no duy210697@35.237.235.110 uptime<<EOF
+
+ssh -tt duy210697@35.237.235.110 <<EOF
  cd ~/node-app-test-jenkin
  git pull
  npm install
