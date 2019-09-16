@@ -19,7 +19,7 @@
 - Create a admin user for Jenkins
 - Click on **New Item** button or **create new job**, name the item **\<app-name\>** and select **Build a free-style software project** option and click the **OK** button.
 - Add Build Step: Click on **Add Build Step** button and select **Execute Shell** option. Enter the the command you want to execute. Example:
-> ssh -tt <your-name>@<ip-server> <<EOF
+> ssh -tt your-name@ip-server <<EOF
   
 > sudo -s
 
