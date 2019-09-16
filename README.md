@@ -47,4 +47,4 @@
 
 ## Build
 - Now when you want to build, you only need to click **Build now**.
-- You can configure more plugin like **Bitbucket Plugin** and webhook for auto deployment.
+- You can configure more plugin like **Bitbucket Plugin** and webhook for auto deployment, following this link: "https://medium.com/@mohan08p/jenkins-integration-with-bitbucket-github-webhook-25a191507cab"
