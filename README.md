@@ -36,6 +36,15 @@
 > exit
 
 > EOF
-  
+
+## Create SSH Key to connect to production server
+- On server Jenkins, create a SSH key with user **Jenkins**
+> sudo -u jenkins bash
+
+> ssh-keygen -t rsa -C "your_email@example.com"
+- Configure your created SSH in production server
+- You also need to configure SSH key for your repository in Github, Gitlab, Bitbucket,... similarly.
+
+## Build
 - Now when you want to build, you only need to click **Build now**.
 - You can configure more plugin like **Bitbucket Plugin** and webhook for auto deployment.
